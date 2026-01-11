@@ -1,5 +1,5 @@
 const bcrypt = require('bcryptjs');
-const pool = require('../config/db'); // Ajusta la ruta a tu archivo de conexión
+const pool = require('../src/config/db'); // Ajusta la ruta a tu archivo de conexión
 require('dotenv').config();
 
 async function crearAdmin() {
